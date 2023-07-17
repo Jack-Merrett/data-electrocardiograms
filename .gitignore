@@ -31,3 +31,5 @@ mlruns
 
 #other files I need to ignore
 tests/
+Electrocardiograms.ipynb
+Makefile
