@@ -15,7 +15,6 @@ __pycache__
 *.gz
 *PKG-INFO
 *.egg-info
-*.csv
 05-ML/**/*.txt
 06-Deep-Learning/**/*.txt
 *.zip
@@ -29,3 +28,6 @@ mlruns
 
 # Challengify - test challengification files
 *_challengify*
+
+#other files I need to ignore
+tests/
