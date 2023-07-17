@@ -1,5 +1,7 @@
 # Electrocardiograms Classification Modeling
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRVugeNpMbyd3XjT7sK2J77WmTUp-77JzQHQ&usqp=CAU)
+
 ## Introduction
 This project focuses on building a classification model for electrocardiograms (ECG) to predict whether a patient's heartbeat is "at risk" of cardiovascular disease or not. The dataset used in this project contains numerically represented heartbeats along with corresponding binary labels.
 
