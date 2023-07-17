@@ -1,29 +1,44 @@
-# Electrocardiograms
+# Electrocardiograms Classification Modeling
 
-## Download the dataset
+## Introduction
+This project focuses on building a classification model for electrocardiograms (ECG) to predict whether a patient's heartbeat is "at risk" of cardiovascular disease or not. The dataset used in this project contains numerically represented heartbeats along with corresponding binary labels.
 
-The dataset is available [here](https://wagon-public-datasets.s3.amazonaws.com/Machine%20Learning%20Datasets/ML_Electrocardiograms_dataset.csv). Let's download it and store it in the `data` folder in the `02-Electrocardiograms` directory with the following commands:
+## Dataset
 
-```bash
-cd ~/code/<user.github_nickname>/{{local_path_to("05-ML/03-Performance-metrics/02-Electrocardiograms")}}
-curl https://wagon-public-datasets.s3.amazonaws.com/Machine%20Learning%20Datasets/ML_Electrocardiograms_dataset.csv > data/electrocardiograms.csv
-```
+The dataset used in this project can be downloaded from the following link: [ECG Dataset](https://wagon-public-datasets.s3.amazonaws.com/Machine%20Learning%20Datasets/ML_Electrocardiograms_dataset.csv). 
 
-## The dataset
+The dataset contains the following features:
+- Numerically represented heartbeats extracted from ECG readings.
+- Binary target labels indicating whether the heartbeat is at risk of cardiovascular disease (1) or not (0).
 
-- Each observation of the dataset is a numerically represented heartbeat, taken from a patient's electrocardiogram (ECG).
-- The `target` is binary and defines whether the heartbeat is at risk of cardiovascular disease [1] or not [0].
+## Model Building
+In this project, we aim to develop a classification model that can accurately predict the risk of cardiovascular disease based on ECG readings. We will leverage machine learning techniques, specifically **logistic regression**, to train and evaluate the model.
 
-## Exercise
+## Requirements
+To run the code and reproduce the results, you will need the following libraries:
+- Python (Version 3.10.6 or above)
+- NumPy
+- Pandas
+- SciKit-Learn
 
-🎯 Your task is to flag heartbeats that are at risk of cardiovascular diseases. You will:
+## Getting started:
+- Download the dataset from the provided link.
+- Install the required libraries.
+- Run the Python code to train the classification model.
+- Evaluate the model's performance on test data.
+- Interpret the results and make predictions for new ECG readings.
 
-- Investigate the class balance of the dataset
-- Evaluate and compare two models: KNN and LogisticRegression
-- Use Confusion matrix and Classification report to get insight on the models' performances
-- Choose the optimal model based on the appropriate metric
+Feel free to explore the code and modify it according to your requirements.
 
-To start the exercise, open `Electrocardiograms.ipynb` in `jupyter notebook` and follow the instructions.
+## Conclusion
 
-🚀 Your turn!
+By developing an accurate classification model for electrocardiograms, we can potentially assist in early detection and intervention for individuals at risk of cardiovascular disease. This project aims to contribute to the field of medical diagnostics and provide valuable insights into heart health.
+
+Please refer to the Jupyter Notebook or Python script in this repository for detailed implementation and analysis
+
+## License
+
+This project is licensed under [Le Wagon](https://www.lewagon.com/legal-notice).
+
+
 
